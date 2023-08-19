@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header{
+    width: 100vw;
+    height: 20vh;
+    background-image: url('./restaurantppic.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#header > *{
+    padding: 30px 50px 30px 50px;
+    margin: 60px;
+    color: maroon;
+    border-radius: 15px;
+    border: maroon;
+}
+
+#content{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    
+} 
+
+
+#text-content{
+    margin-top: 10vh;
+    
+}
+
+#text-content > *{
+    border: 4px solid rgb(159, 74, 74);
+    padding: 15px;
+    border-radius: 15px;
+}
